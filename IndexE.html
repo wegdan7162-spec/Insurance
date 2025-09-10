@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MdicalInsurance</title>
+    <link href="img/medical.png" rel="icon" type="image/x-icon" />
+
+    <!------------------------------bootstrap----------------------------------->
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+    <!------------------------------css----------------------------------->
+    <link href="css/navbar-style.css" rel="stylesheet" />
+    <link href="css/navbar-media.css" rel="stylesheet" />
+    <link href="css/scroll.css" rel="stylesheet" />
+
+    <!---------------------------fontawesome----------------------------------->
+
+    <link href="fonts/fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="fonts/fontawesome/css/solid.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap" rel="stylesheet">
+
+    <style>
+
+        .dropdown-menu {
+            background-color: #d1e7dd !important;
+        }
+            .dropdown-menu .dropdown-item {
+                color: #0f5132;
+            }
+                .dropdown-menu .dropdown-item:hover {
+                    background-color: #bcd0c7;
+                    color: #0a3622;
+                }
+    </style>
+    
+</head>
+<body style="height:1500px;">
+    <!-- -------------------------navbar------------------------------------------------ -->
+    <nav class="navbar bg-success border-bottom border-2 shadow navbar-expand-lg fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/IndexE.html">
+                <img id="img-brand" src="img/medical.png" class="nav-brand-img me-2  fa-pulse" />
+
+                Branch Medical Insurance
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" style="font-family: 'Cairo' " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sitting
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item " href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-server m-0" viewBox="0 0 20 20">
+                                        <path d="M1.333 2.667C1.333 1.194 4.318 0 8 0s6.667 1.194 6.667 2.667V4c0 1.473-2.985 2.667-6.667 2.667S1.333 5.473 1.333 4z" />
+                                        <path d="M1.333 6.334v3C1.333 10.805 4.318 12 8 12s6.667-1.194 6.667-2.667V6.334a6.5 6.5 0 0 1-1.458.79C11.81 7.684 9.967 8 8 8s-3.809-.317-5.208-.876a6.5 6.5 0 0 1-1.458-.79z" />
+                                        <path d="M14.667 11.668a6.5 6.5 0 0 1-1.458.789c-1.4.56-3.242.876-5.21.876-1.966 0-3.809-.316-5.208-.876a6.5 6.5 0 0 1-1.458-.79v1.666C1.333 14.806 4.318 16 8 16s6.667-1.194 6.667-2.667z" />
+                                    </svg> <span class="ms-2">ٍSitting and Backup</span>
+
+                                </a>
+                            </li>
+
+                            <li><a class="dropdown-item  " href="#">User data management</a></li>
+                            <li><a class="dropdown-item  " href="#">change password</a></li>
+                            <li><a class="dropdown-item " href="#">Confirm password</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item " href="#">Email</a></li>
+                            <li><a class="dropdown-item " href="#">Facebook</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Amicable reconciliation
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" style="font-family: 'Cairo' ">Amicable reconciliation</a></li>
+                            <li><a class="dropdown-item" href="#" style="font-family: 'Cairo' ">Reports</a></li>
+                            <li><a class="dropdown-item" href="#" style="font-family: 'Cairo' ">Chart</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Issues
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Issues</a></li>
+                            <li><a class="dropdown-item" href="#">Reports</a></li>
+                            <li><a class="dropdown-item" href="#">Chart</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="font-family: 'Cairo' " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            language
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="\Index.html">Arabic</a></li>
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="\registerE.html"> Registration</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="\LoginE.html">Login</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- -------------------------carousel------------------------------------------------ -->
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade shadow rounded-2 overflow-hidden " data-bs-ride="carousel" data-bs-interval="1000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/m5.jpg" class="d-block w-100 carouselImg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="3000">
+                <img src="img/R6.jpg" class="d-block w-100 carouselImg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="3000">
+                <img src="img/R8.jpg" class="d-block w-100  carouselImg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="3000">
+                <img src="img/R5.jpg" class="d-block w-100 carouselImg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="3000">
+                <img src="img/R10.jpg" class="d-block w-100 carouselImg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="3000">
+                <img src="img/R1.jpg" class="d-block w-100 carouselImg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="3000">
+                <img src="img/R7.jpg" class="d-block w-100 carouselImg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden" style="font-family: 'Cairo' ">السابق</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden" style="font-family: 'Cairo' ">التالي</span>
+        </button>
+    </div>
+    <!-- -------------------------Branchs------------------------------------------------ -->
+    <section class="mt-3">
+        <div class="container">
+            <h2 class="d-flex justify-content-center align-items-center company-brand bg-#d2fad5 mt-2 p-3 " data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" style="font-family :'cairo'">Branch Sections</h2>
+        </div>
+
+        <div class="row px-3 m-0 d-flex justify-content-center g-3 ">
+            <!-- الكارت الأول -->
+            <div class="col-md-6 col-lg d-flex">
+                <div class="card text-center h-100 w-100">
+                    <img src="img/doctorInsuranc.png" class="card-img-top" alt="قسم الاصدار" />
+                    <div class="card-body d-flex flex-column">
+                        <h2 class="card-title fs-5 fs-md-4 fs-lg-3"><strong>Issuing Department</strong></h2>
+                        <p class="card-text fs-6 fs-md-5 fs-lg-4">
+                            This is the department through which insurance documents are issued, whether the insured party is
+                            a public or private hospital or an individual.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- الكارت الثاني -->
+            <div class="col-md-6 col-lg d-flex">
+                <div class="card text-center h-100 w-100">
+                    <img src="img/ClaimIn.png" class="card-img-top" alt="قسم التعويضات" />
+                    <div class="card-body d-flex flex-column">
+                        <h2 class="card-title fs-5 fs-md-4 fs-lg-3"><strong>Compensation Department</strong></h2>
+                        <p class="card-text fs-6 fs-md-5 fs-lg-4">
+                            This is a section through which compensation is paid, whether the insured person was in a public or private hospital or was an individual.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- الكارت الثالث -->
+            <div class="col-md-6 col-lg d-flex">
+                <div class="card text-center h-100 w-100">
+                    <img src="img/Account.png" class="card-img-top" alt="قسم الحسابات ومرتبات" />
+                    <div class="card-body d-flex flex-column">
+                        <h2 class="card-title fs-5 fs-md-4 fs-lg-3 " ><strong> Accounts and Salaries Department</strong>
+                           
+                        </h2>
+                        <p class="card-text fs-6 fs-md-5 fs-lg-4">
+                            This is the department through which all financial procedures are carried out, from receiving instalments to issuing
+                            documents and cheques for compensation, compiling statistics and reports, and calculating
+                            the salaries of branch employees.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h2 class=" d-flex justify-content-center  company-brand bg-#d2fad5  p-3 align-items-center mt-5" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+        Frequently asked questions about medical insurance ?
+    </h2>
+
+    <div class="accordion mt-5" id="accordionExample">
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <!-- يجب اضافة كلاس collapsed عند الغاء show من body-->
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What is medical liability insurance?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>   It is the insurance of errors resulting from the practice of the profession for <span style=" color: crimson; font-style: italic; text-shadow: 2px 2px 3px #aaa"> medical and auxiliary medical elements </span> </strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    What is the purpose of medical liability insurance?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Providing protection for <span style=" color: crimson; font-style: italic; text-shadow: 2px 2px 3px #aaa"> medical and auxiliary medical elements </span>  during the practice of the profession </strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    How is the procedure for medical liability insurance coverage?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong> If the coverage is  <span style=" color: crimson; font-weight: bold; font-style: italic; text-shadow: 2px 2px 3px #aaa ">  collective </span>, it is through the conclusion of a contract between the insurance company and the insurer, and if it is <span style=" color: crimson; font-weight: bold; font-style: italic; text-shadow: 2px 2px 3px #aaa "> an individual </span> , it is carried out in the personal presence of the insured</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------footer------------------------------------------------ -->
+    <footer class="bg-success text-white text-opacity-75 py-2 position-fixed bottom-0 w-100 text-center">
+        <small> 2025&copy; All rights reserved</small>
+    </footer>
+
+    <!-- -------------------------upButton------------------------------------------------ -->
+    <a id="upButton">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <!-- ------------------------jQuery-scroll------------------------------------------------ -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="js/scroll.js"></script>
+
+
+
+
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
